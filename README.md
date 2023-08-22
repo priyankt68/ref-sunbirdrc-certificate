@@ -19,3 +19,15 @@ check certificate-api.ipynb
 
 ## Troubleshooting
 run `docker-compose logs -f registry` and check logs
+
+## Running ipython notebook.
+
+### Install dependencies and activating environment.
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install jupyter
+jupyter notebook
+```
+
+Select the notebook `certificate-api` and execute the APIs.
